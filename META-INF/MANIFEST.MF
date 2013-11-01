@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Author: Aquent, LLC (cfalzone@aquent.com)
+Bundle-Name: Test Provider
+Bundle-Activator: com.aquent.testobjects.Activator
+Bundle-SymbolicName: TestProvider
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: OSGi/Minimum-1.0
+DynamicImport-Package: *
+Import-Package:  org.osgi.service.http,
+ org.apache.felix.http.api
+Export-Package: com.aquent.testobjects
